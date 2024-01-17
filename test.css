@@ -1,0 +1,49 @@
+.graph {
+    width: 50%;
+    float: left;
+}
+
+/* .operations {
+    width: 49%;
+    float: right;
+} */
+
+.add_node {
+    border-radius: 10px;
+    background-color: red;
+    position: absolute;
+    width: 49.5%;
+    top: 0;
+    right: 0;
+    height: 49.5%;
+    border-radius: 10px 0 0 10px;
+}
+
+.add_edge {
+    border-radius: 10px;
+    background-color: blue;
+    position: absolute;
+    width: 49.5%;
+    right: 0;
+    bottom: 0;
+    height: 49.5%;
+    border-radius: 10px 0 0 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+    font-size: larger;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    width: 95%;
+}
